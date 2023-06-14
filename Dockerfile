@@ -10,7 +10,7 @@ LABEL maintainer="HwanYeoul Jeong<coordinatorj@jadecross.com>" \
       description="This image is guestbook service"
 
 ENV APP_HOME /app
-EXPOSE 8080
+EXPOSE 80
 VOLUME /app/upload
 
 WORKDIR $APP_HOME
